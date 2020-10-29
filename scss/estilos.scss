@@ -1,6 +1,7 @@
-//---------------------
-//patron de colores
-//---------------------
-$texto:#111111;
-$principal:#12AFAF;
-$secundaria:#009500;
+//------------------
+//importar
+//-----------------------
+@import"componentes/variables";
+@import"componentes/generales";
+@import"componentes/header";
+

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,CAAC;EACG,OAAO,EAAC,CAAC;EACT,MAAM,EAAC,CAAC;EACR,UAAU,EAAE,UAAU;;AAE1B,IAAI;EACA,SAAS,EAAE,IAAI;;AAEnB,IAAI;EACA,WAAW,EAAE,uBAAuB;EACpC,KAAK,ECPF,OAAO;;ACHd,wBAAwB;EACpB,gBAAgB,EDEb,OAAO;ECDV,KAAK,EDII,OAAO;ECHhB,OAAO,EAAE,OAAO;EAEhB,mCAAU;IACN,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,SAAS,EAAE,IAAI;EAEnB,kCAAS;IACL,KAAK,EAAC,KAAK;IACX,MAAM,EAAE,IAAI;;AAKpB,0BAA0B;EACtB,MAAM,EAAC,CAAC;EACR,gBAAgB,EAAC,WAAW;EAC5B,KAAK,EDdI,OAAO;ECehB,SAAS,EAAE,IAAI;EACf,OAAO,EAAC,OAAO",
+"sources": ["../scss/componentes/_generales.scss","../scss/componentes/_variables.scss","../scss/componentes/_header.scss"],
 "names": [],
 "file": "estilos.css"
 }

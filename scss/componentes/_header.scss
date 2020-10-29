@@ -1,0 +1,24 @@
+.bienvenidos__encabezado{
+    background-color: $texto;
+    color:$color-claro;
+    padding: .5rem 0;
+    
+    .container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .logo img{
+        width:150px;
+        height: auto;
+    }
+
+}
+
+.boton-buscar, .boton-menu{
+    border:0;
+    background-color:transparent;
+    color:$color-claro;
+    font-size: 2rem;
+    padding:0 .5rem;
+}

@@ -1,3 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
+html {
+  font-size: 15px; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #111111; }
+
+.bienvenidos__encabezado {
+  background-color: #111111;
+  color: #fefefe;
+  padding: .5rem 0; }
+  .bienvenidos__encabezado .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .bienvenidos__encabezado .logo img {
+    width: 150px;
+    height: auto; }
+
+.boton-buscar, .boton-menu {
+  border: 0;
+  background-color: transparent;
+  color: #fefefe;
+  font-size: 2rem;
+  padding: 0 .5rem; }
 
 /*# sourceMappingURL=estilos.css.map */
