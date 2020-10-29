@@ -15,10 +15,63 @@
 
 }
 
-.boton-buscar, .boton-menu{
+.boton-buscar,.boton-menu{
     border:0;
     background-color:transparent;
     color:$color-claro;
     font-size: 2rem;
     padding:0 .5rem;
+}
+.boton-buscar{
+    margin-left: auto;
+    margin-right: .8rem;
+}
+
+.boton-buscar:focus,.boton-menu:focus{
+    outline: 0;
+}
+
+#bloque-buscar{
+    flex:1 1 100%;
+}
+.contenedor-bloque-buscar{
+    display: flex;
+    height: 3rem;
+    margin:1rem 0;
+    &__textSearch{
+        border:0;
+        border-radius: 5px 0 0 5px;
+        padding-left: 1rem;
+    }
+    &__buttonSearch{
+        border:0;
+        border-radius: 0 5px 5px 0;
+        background-color: $principal;
+        color:$color-claro;
+        flex:1 1 auto;
+    }
+    &__buttonSearch:focus{
+        outline: 0;
+    }
+
+}
+
+#menu-principal{
+    flex:1 1 100%;
+    ul{
+        list-style: none;
+        margin-top:1rem;
+    }
+    ul a{
+        display: block;
+        text-align: center;
+        padding:.8rem 0 ;
+        color:$color-claro;
+        text-transform: uppercase;
+        border-top: 1px solid #8c8888;
+        text-decoration: none;
+    }
+    ul a:hover,li.active a{
+        color:$principal;
+    }
 }
