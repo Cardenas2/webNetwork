@@ -16,19 +16,19 @@
             <header class="bienvenidos__encabezado navbar fixed-top" role="banner">
                 <div class="container">
                     <a href="index.html" class="logo"><img src="images/logoNetwork.svg" alt="Logo de sitio"></a>
-                    <button type="button" class="boton-buscar">
+                    <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
                         <i class="fas fa-search"></i>
                     </button><!--fin button Buscar-->
-                    <button type="button" class="boton-menu">
+                    <button type="button" class="boton-menu" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
                         <i class="fas fa-bars"></i>
                     </button><!--fin button menu-->
-                    <form action="#" id="bloque-buscar">
+                    <form  class="collapse" action="#" id="bloque-buscar">
                         <div class="contenedor-bloque-buscar">
                             <input class="contenedor-bloque-buscar__textSearch" type="text" placeholder="Buscar...">
                             <input class="contenedor-bloque-buscar__buttonSearch" type="submit" value="Buscar">
                         </div>
                     </form><!--fin form-->
-                    <nav id="menu-principal">
+                    <nav class="collapse" id="menu-principal">
                         <ul>
                             <li class="active"><a href="index.html">Inicio</a></li>
                             <li><a href="nosotros.html">Nosotros</a></li>
