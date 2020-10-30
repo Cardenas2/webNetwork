@@ -1,18 +1,35 @@
-.bienvenidos__encabezado{
-    background-color: $texto;
+.bienvenidos{
+    background-image:url("../images/fondoBienvenida.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
     color:$color-claro;
-    padding: .5rem 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__encabezado{
+        background-color: $texto;
+        color:$color-claro;
+        padding: .5rem 0;
+        
+        .container{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo img{
+            width:150px;
+            height: auto;
+        }
     
-    .container{
+    }
+    &__texto-encabezado{
+        margin-top:4rem;
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
+        flex:1 1 auto;
     }
-    .logo img{
-        width:150px;
-        height: auto;
-    }
-
 }
 
 .boton-buscar,.boton-menu{
@@ -75,9 +92,6 @@
         color:$principal;
     }
 }
-.bienvenidos__texto-encabezado{
-    margin-top:4rem;
-}
 .ponteEnContacto{
     color: #fff;
     background-color:$principal;
@@ -89,3 +103,24 @@
         border-color:transparent;  
     }
 } 
+
+.flecha-bajar a{
+    display: inline-block;
+    color:$color-claro;
+    font-size: 4rem;
+    animation: flechaSaltarina 1.5s ease-in-out infinite;
+
+
+}
+
+@keyframes flechaSaltarina{
+    from{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(5PX);
+    }
+    to{
+        transform:translateY(0);
+    }
+}

@@ -10,17 +10,32 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #111111; }
 
-.bienvenidos__encabezado {
-  background-color: #111111;
+.bienvenidos {
+  background-image: url("../images/fondoBienvenida.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
   color: #fefefe;
-  padding: .5rem 0; }
-  .bienvenidos__encabezado .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .bienvenidos__encabezado {
+    background-color: #111111;
+    color: #fefefe;
+    padding: .5rem 0; }
+    .bienvenidos__encabezado .container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; }
+    .bienvenidos__encabezado .logo img {
+      width: 150px;
+      height: auto; }
+  .bienvenidos__texto-encabezado {
+    margin-top: 4rem;
     display: flex;
     align-items: center;
-    flex-wrap: wrap; }
-  .bienvenidos__encabezado .logo img {
-    width: 150px;
-    height: auto; }
+    flex: 1 1 auto; }
 
 .boton-buscar, .boton-menu {
   border: 0;
@@ -72,9 +87,6 @@ body {
   #menu-principal ul a:hover, #menu-principal li.active a {
     color: #12AFAF; }
 
-.bienvenidos__texto-encabezado {
-  margin-top: 4rem; }
-
 .ponteEnContacto {
   color: #fff;
   background-color: #12AFAF;
@@ -84,5 +96,19 @@ body {
   .ponteEnContacto:hover, .ponteEnContacto:focus {
     background-color: #009500;
     border-color: transparent; }
+
+.flecha-bajar a {
+  display: inline-block;
+  color: #fefefe;
+  font-size: 4rem;
+  animation: flechaSaltarina 1.5s ease-in-out infinite; }
+
+@keyframes flechaSaltarina {
+  from {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(5PX); }
+  to {
+    transform: translateY(0); } }
 
 /*# sourceMappingURL=estilos.css.map */
