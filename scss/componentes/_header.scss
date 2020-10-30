@@ -75,3 +75,17 @@
         color:$principal;
     }
 }
+.bienvenidos__texto-encabezado{
+    margin-top:4rem;
+}
+.ponteEnContacto{
+    color: #fff;
+    background-color:$principal;
+    border-color:transparent;
+    margin-top:2rem;
+    transition: all .5s ease;
+    &:hover,&:focus{
+        background-color:$secundaria;
+        border-color:transparent;  
+    }
+} 

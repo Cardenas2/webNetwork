@@ -86,4 +86,8 @@ body {
   #menu-principal ul a:hover, #menu-principal li.active a {
     color: #12AFAF; }
 
+.btn-primary {
+  background-color: red;
+  border-color: transparent; }
+
 /*# sourceMappingURL=estilos.css.map */
