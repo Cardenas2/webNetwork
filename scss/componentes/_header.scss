@@ -108,17 +108,15 @@
     display: inline-block;
     color:$color-claro;
     font-size: 4rem;
-    animation: flechaSaltarina 1.5s ease-in-out infinite;
-
-
+    animation: flechaBajar 1.5s ease-in-out infinite;
 }
 
-@keyframes flechaSaltarina{
+@keyframes flechaBajar{
     from{
         transform:translateY(0);
     }
     50%{
-        transform:translateY(5PX);
+        transform:translateY(5px);
     }
     to{
         transform:translateY(0);
