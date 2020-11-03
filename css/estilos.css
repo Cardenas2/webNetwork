@@ -118,4 +118,7 @@ body {
     display: block;
     margin: 0 auto; }
 
+.tuMejorEleccion__descripcion__parrafo {
+  display: none; }
+
 /*# sourceMappingURL=estilos.css.map */
