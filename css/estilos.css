@@ -112,7 +112,8 @@ body {
     transform: translateY(0); } }
 .agencia {
   background-color: #12AFAF;
-  color: #fefefe;
-  padding: 2rem 0; }
+  color: #fefefe; }
+  .agencia__imagen {
+    width: 80%; }
 
 /*# sourceMappingURL=estilos.css.map */

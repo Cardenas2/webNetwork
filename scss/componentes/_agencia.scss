@@ -1,5 +1,7 @@
 .agencia{
     background-color: $principal;
     color:$color-claro;
-    padding: 2rem 0;
+    &__imagen{
+        width: 80%;
+    }
 }
