@@ -3,5 +3,8 @@
     color:$color-claro;
     &__imagen{
         width: 80%;
+        display: block;
+        margin:0 auto;
+
     }
 }

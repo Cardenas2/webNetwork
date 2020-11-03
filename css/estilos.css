@@ -114,6 +114,8 @@ body {
   background-color: #12AFAF;
   color: #fefefe; }
   .agencia__imagen {
-    width: 80%; }
+    width: 80%;
+    display: block;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=estilos.css.map */
