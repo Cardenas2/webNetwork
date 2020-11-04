@@ -139,4 +139,39 @@ body {
   font-weight: 700;
   margin-top: .8rem; }
 
+.servicios {
+  background-image: url(../images/fondoNuestrosServicios.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  color: #fefefe; }
+  .servicios img {
+    flex: 0 0 70px;
+    overflow: hidden; }
+  .servicios__item {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0; }
+
+.fuente-3 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 700;
+  flex: 1 1 auto; }
+  .fuente-3 a {
+    color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none; }
+
+.fuente-3 > a::after {
+  content: "\f054";
+  font-family: fontAwesome;
+  font-size: 2rem;
+  margin-left: 1rem;
+  opacity: .5; }
+
 /*# sourceMappingURL=estilos.css.map */
