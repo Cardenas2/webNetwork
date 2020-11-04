@@ -7,6 +7,7 @@
     }
     &__itemLista{
         @extend .tuMejorEleccion__lista;
+        min-height: 10rem;
     }
 }
 .icono__eleccion{
@@ -17,5 +18,9 @@
     width: 4.5rem;
     height: 4.5rem;
     padding-top: 1.2rem;
-
+}
+.fuente-4{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: .8rem;
 }

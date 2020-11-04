@@ -122,6 +122,8 @@ body {
   color: #12AFAF; }
 .tuMejorEleccion__lista, .tuMejorEleccion__itemLista {
   list-style: none; }
+.tuMejorEleccion__itemLista {
+  min-height: 10rem; }
 
 .icono__eleccion {
   font-size: 2.3rem;
@@ -131,5 +133,10 @@ body {
   width: 4.5rem;
   height: 4.5rem;
   padding-top: 1.2rem; }
+
+.fuente-4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: .8rem; }
 
 /*# sourceMappingURL=estilos.css.map */
