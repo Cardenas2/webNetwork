@@ -118,17 +118,4 @@ body {
     display: block;
     margin: 0 auto; }
 
-.tuMejorEleccion__descripcion__parrafo {
-  display: none; }
-
-.icono__eleccion {
-  background-color: #009500;
-  padding: 27px 29px;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  color: #fefefe;
-  font-size: 34px;
-  list-style: none; }
-
 /*# sourceMappingURL=estilos.css.map */
