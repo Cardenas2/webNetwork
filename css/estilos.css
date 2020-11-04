@@ -118,4 +118,18 @@ body {
     display: block;
     margin: 0 auto; }
 
+.tuMejorEleccion__textoDestacado {
+  color: #12AFAF; }
+.tuMejorEleccion__lista, .tuMejorEleccion__itemLista {
+  list-style: none; }
+
+.icono__eleccion {
+  font-size: 2.3rem;
+  color: #fefefe;
+  background-color: #009500;
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
+  padding-top: 1.2rem; }
+
 /*# sourceMappingURL=estilos.css.map */

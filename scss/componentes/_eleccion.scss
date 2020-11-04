@@ -1,0 +1,21 @@
+.tuMejorEleccion{
+    &__textoDestacado{
+        color:$principal;
+    }
+    &__lista{
+        list-style: none;
+    }
+    &__itemLista{
+        @extend .tuMejorEleccion__lista;
+    }
+}
+.icono__eleccion{
+    font-size: 2.3rem;
+    color:$color-claro;
+    background-color: $secundaria;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    padding-top: 1.2rem;
+
+}
