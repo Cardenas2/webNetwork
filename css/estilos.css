@@ -182,4 +182,32 @@ body {
   opacity: 1;
   color: #12AFAF; }
 
+.proyectos__container {
+  padding-right: 0;
+  padding-left: 0; }
+.proyectos__ancla {
+  text-decoration: none;
+  color: #111111; }
+.proyectos__titulo {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700; }
+
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem; }
+
+.button-left, .button-right {
+  color: #12AFAF;
+  border: olive;
+  font-size: 3rem;
+  transition: all .5s ease; }
+
+.button-right {
+  margin: 0 1rem; }
+
+.button-left:hover, .button-right:hover {
+  color: #009500; }
+
 /*# sourceMappingURL=estilos.css.map */
