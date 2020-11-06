@@ -189,11 +189,24 @@ body {
   color: #fefefe; }
   .servicios img {
     flex: 0 0 70px;
-    overflow: hidden; }
+    overflow: hidden;
+    transition: all 1s ease; }
+    @media (min-width: 768px) {
+      .servicios img {
+        flex: 0 0 150px;
+        margin-bottom: 1rem; } }
+  .servicios article:hover img {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d; }
   .servicios__item {
     display: flex;
     align-items: center;
     margin: 1rem 0; }
+    @media (min-width: 768px) {
+      .servicios__item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; } }
 
 .fuente-3 {
   margin: 0;
@@ -217,6 +230,9 @@ body {
   position: relative;
   left: 0;
   transition: all .5s ease; }
+  @media (min-width: 768px) {
+    .fuente-3 a::after {
+      display: none; } }
 
 .fuente-3 a:hover::after {
   left: -.5rem;
