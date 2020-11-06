@@ -59,13 +59,16 @@
         border:0;
         border-radius: 5px 0 0 5px;
         padding-left: 1rem;
+        flex: 1 1 auto;
+
     }
     &__buttonSearch{
         border:0;
         border-radius: 0 5px 5px 0;
         background-color: $principal;
         color:$color-claro;
-        flex:1 1 auto;
+        flex:0 1 auto;
+        padding: 0 1rem;
     }
     &__buttonSearch:focus{
         outline: 0;

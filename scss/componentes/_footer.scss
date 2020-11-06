@@ -1,0 +1,38 @@
+.footer{
+    background-color: $texto;
+    color:$color-claro;
+    font-size: .9rem;
+    &__redesSociales{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        a{
+            color:$color-claro;
+            font-size: 2rem;
+            margin:0 .5rem;
+            transition: all .3s ease-in;
+        }
+        a:hover{
+            color:$principal;
+        }
+        
+    }
+}
+.icono-flechaIrArriba{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    color:rgba($secundaria,.5);
+    text-decoration: none;
+    z-index: 300;
+    line-height: 0;
+    transition: all .2s ease-in-out;
+    &:hover,:focus{
+        outline: none;
+        text-decoration: none;
+        color:$color-claro;
+    }
+}

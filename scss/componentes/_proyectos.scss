@@ -4,8 +4,11 @@
         padding-left: 0;
     }
     &__ancla{
-        text-decoration: none;
         color:$texto;
+        &:hover{
+            text-decoration: none;
+            color:$texto;
+        }
 
     }
     &__titulo{
@@ -20,18 +23,22 @@
     display: flex;
     justify-content:center;
     margin-top: 1rem;
+    
 }
 
-.button-left,.button-right{
+.boton-left,.boton-right{
     color:$principal;
-    border: olive;
     font-size: 3rem;
     transition: all .5s ease;
 }
-.button-right{
-    margin:0 1rem;
+.boton-right, .boton-left{
+    margin:0 .5rem;
 }
-
-.button-left:hover,.button-right:hover{
+.boton-left:hover,.boton-right:hover{
     color:$secundaria;
+}
+.boton-left:focus,.boton-right:focus{
+    outline:0;
+    text-decoration: none;
+    color:$color-claro;
 }
