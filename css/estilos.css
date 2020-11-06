@@ -37,7 +37,7 @@ body {
     align-items: center;
     flex: 1 1 auto; }
 
-.boton-buscar, .boton-menu {
+.boton-menu, .boton-buscar {
   border: 0;
   background-color: transparent;
   color: #fefefe;
@@ -47,12 +47,28 @@ body {
 .boton-buscar {
   margin-left: auto;
   margin-right: .8rem; }
+  @media (min-width: 768px) {
+    .boton-buscar {
+      margin-left: 1rem;
+      margin-right: 0;
+      order: 2; } }
 
-.boton-buscar:focus, .boton-menu:focus {
+.boton-buscar:focus, .boton-menu:focus, .boton-buscar:focus {
   outline: 0; }
 
 #bloque-buscar {
   flex: 1 1 100%; }
+  @media (min-width: 768px) {
+    #bloque-buscar {
+      order: 3;
+      position: absolute;
+      right: 1rem;
+      top: 2.8rem;
+      width: 20rem; } }
+
+@media (min-width: 768px) {
+  .container__bienvenida {
+    position: relative; } }
 
 .contenedor-bloque-buscar {
   display: flex;
@@ -75,9 +91,20 @@ body {
 
 #menu-principal {
   flex: 1 1 100%; }
+  @media (min-width: 768px) {
+    #menu-principal {
+      display: block;
+      height: auto;
+      flex: 0 1 auto;
+      margin-left: auto;
+      order: 1; } }
   #menu-principal ul {
     list-style: none;
     margin-top: 1rem; }
+    @media (min-width: 768px) {
+      #menu-principal ul {
+        display: flex;
+        margin: 0; } }
   #menu-principal ul a {
     display: block;
     text-align: center;
@@ -86,8 +113,20 @@ body {
     text-transform: uppercase;
     border-top: 1px solid #8c8888;
     text-decoration: none; }
+    @media (min-width: 768px) {
+      #menu-principal ul a {
+        padding: .8rem;
+        border: none;
+        margin: 0 .5rem;
+        text-transform: capitalize;
+        border-bottom: 3px solid transparent;
+        transition: all .2s ease; } }
   #menu-principal ul a:hover, #menu-principal li.active a {
     color: #12AFAF; }
+    @media (min-width: 768px) {
+      #menu-principal ul a:hover, #menu-principal li.active a {
+        color: #12AFAF;
+        border-bottom: 3px solid #12AFAF; } }
 
 .ponteEnContacto {
   color: #fff;
@@ -241,7 +280,7 @@ body {
   bottom: 1rem;
   right: 1rem;
   font-size: 2.5rem;
-  color: rgba(0, 149, 0, 0.5);
+  color: rgba(18, 175, 175, 0.5);
   text-decoration: none;
   z-index: 300;
   line-height: 0;
