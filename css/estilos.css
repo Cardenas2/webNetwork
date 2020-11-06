@@ -214,6 +214,11 @@ body {
   line-height: 1.6;
   font-weight: 700;
   flex: 1 1 auto; }
+  @media (min-width: 768px) {
+    .fuente-3 {
+      font-size: 1.8;
+      flex: 0 1 auto;
+      margin-bottom: 1rem; } }
   .fuente-3 a {
     color: #fefefe;
     display: flex;
@@ -238,6 +243,9 @@ body {
   left: -.5rem;
   opacity: 1;
   color: #12AFAF; }
+
+.boton-servicios {
+  margin-top: auto; }
 
 .proyectos__container {
   padding-right: 0;
