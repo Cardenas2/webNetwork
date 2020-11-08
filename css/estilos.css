@@ -170,10 +170,17 @@ body {
   min-height: 10rem; }
   @media (min-width: 992px) {
     .tuMejorEleccion__itemLista {
-      display: flex; } }
+      display: flex;
+      min-height: 8rem; } }
+@media (min-width: 992px) {
+  .tuMejorEleccion__itemLista:hover .icono__eleccion {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+    background-color: #12AFAF; } }
 @media (min-width: 992px) {
   .tuMejorEleccion__itemLista--reverso {
-    flex-direction: row-reverse; } }
+    flex-direction: row-reverse;
+    margin-right: 1rem; } }
 @media (min-width: 992px) {
   .tuMejorEleccion__descripcion {
     flex: 1 0 0px;
@@ -186,7 +193,8 @@ body {
   border-radius: 50%;
   width: 4.5rem;
   height: 4.5rem;
-  padding-top: 1.2rem; }
+  padding-top: 1.2rem;
+  transition: all 1s ease; }
   @media (min-width: 992px) {
     .icono__eleccion {
       text-align: center;
@@ -240,7 +248,9 @@ body {
     .fuente-3 {
       font-size: 1.8;
       flex: 0 1 auto;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem;
+      display: block;
+      width: 100%; } }
   .fuente-3 a {
     color: #fefefe;
     display: flex;
