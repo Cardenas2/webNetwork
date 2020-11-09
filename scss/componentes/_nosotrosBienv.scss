@@ -1,3 +1,38 @@
 .bienvenidos--mitad{
     height: 50vh;
 }
+.ruta{
+    background-color: $principal;
+    color:$color-claro;
+    &__link{
+        color:$color-claro;
+        padding-right:.2rem;
+    }
+    &__link:hover{
+        color: $color-claro;
+        text-decoration: none;
+        
+    }
+}
+.marco-tab{
+    border: none;
+}
+.recuadro-tab{
+    background-color: $principal;
+    border:none;
+    transition: all .5s ease-in;
+}
+
+.recuadro-tab:hover{
+    background-color: $secundaria;
+    
+}
+.titulo-tab{
+    font-size: 1.2rem;
+    color:$color-claro;
+    text-transform: uppercase;
+}
+.titulo-tab:hover{
+    text-decoration: none;
+    color:$color-claro
+}

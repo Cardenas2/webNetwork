@@ -361,4 +361,34 @@ button.owl-next {
 .bienvenidos--mitad {
   height: 50vh; }
 
+.ruta {
+  background-color: #12AFAF;
+  color: #fefefe; }
+  .ruta__link {
+    color: #fefefe;
+    padding-right: .2rem; }
+  .ruta__link:hover {
+    color: #fefefe;
+    text-decoration: none; }
+
+.marco-tab {
+  border: none; }
+
+.recuadro-tab {
+  background-color: #12AFAF;
+  border: none;
+  transition: all .5s ease-in; }
+
+.recuadro-tab:hover {
+  background-color: #009500; }
+
+.titulo-tab {
+  font-size: 1.2rem;
+  color: #fefefe;
+  text-transform: uppercase; }
+
+.titulo-tab:hover {
+  text-decoration: none;
+  color: #fefefe; }
+
 /*# sourceMappingURL=estilos.css.map */
