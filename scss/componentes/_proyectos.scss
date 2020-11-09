@@ -23,7 +23,7 @@
     justify-content: center;
     text-align: center;
     font-size: 4rem;
-    margin-top:.5rem;
+    margin-top:1rem;
     color:$color-claro;
     span{
         background-color:$principal;
@@ -33,18 +33,26 @@
         width: 60px;
         height: 60px;
         line-height: 50px;
+        transition: all .5s ease-in;
     
+    }
+    span:hover{
+        background-color: $secundaria;
     }
 }
 
 button.owl-prev,
 button.owl-next{
-    flex:0 1 70px;
-    height: 40px;
+    flex:0 1 60px;
     outline: 0;
     border:none;
     padding:0;
     margin: 0;
     
 }
-
+button.owl-prev{
+    margin-right: .5rem;
+}
+button.owl-next{
+    margin-left: .5rem;
+}
