@@ -18,31 +18,33 @@
 
     }
 }
-
-.owl-nav {
+.owl-nav{
     display: flex;
-    justify-content:center;
-    margin-top: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    margin-top:.5rem;
+    color:$color-claro;
+    span{
+        background-color:$principal;
+        display:flex;
+        justify-content: center;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        line-height: 50px;
+    
+    }
+}
+
+button.owl-prev,
+button.owl-next{
+    flex:0 1 70px;
+    height: 40px;
+    outline: 0;
+    border:none;
+    padding:0;
+    margin: 0;
     
 }
-// .disabled:focus{
-//     outline:0;
-//     text-decoration: none;
-// }
 
-.boton-left,.boton-right{
-    color:$principal;
-    font-size: 3rem;
-    transition: all .5s ease;
-}
-.boton-right, .boton-left{
-    margin:0 .5rem;
-}
-.boton-left:hover,.boton-right:hover{
-    color:$secundaria;
-}
-.boton-left:focus,.boton-right:focus{
-    outline:0;
-    text-decoration: none;
-    color:$color-claro;
-}

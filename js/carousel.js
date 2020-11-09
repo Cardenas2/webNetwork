@@ -4,8 +4,6 @@ $('.owl-carousel').owlCarousel({
     responsiveClass:true,
     nav:true,
     autoWidth:false,
-    navText: ['<i class="fa fa-chevron-circle-left boton-left" title="Anterior"></i>', '<i class="fa  fa-chevron-circle-right boton-right" title="Siguiente"></i>'],
-    
     responsive:{
         0:{
             items:1,
