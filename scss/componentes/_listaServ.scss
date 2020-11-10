@@ -1,16 +1,25 @@
 .ServicioLista{
     background-color: $secundaria;
+    &__recuadro{
+        display:flex;
+    }
     &__item{
         background-color: $color-claro;
         text-align: center;
         border-radius: .5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        display:flex;
+        flex-direction: column;
     }
     &__icono{
         font-size: 4rem;
         margin-bottom: 1rem;
         color:$principal;
         transition: all 1s ease-in;
+    }
+    &__Btn{
+        @extend .ponteEnContacto;
+        margin-top:auto;
     }
 }
 

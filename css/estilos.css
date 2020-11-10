@@ -131,13 +131,13 @@ body {
         color: #12AFAF;
         border-bottom: 3px solid #12AFAF; } }
 
-.ponteEnContacto {
+.ponteEnContacto, .ServicioLista__Btn {
   color: #fff;
   background-color: #12AFAF;
   border-color: transparent;
   margin-top: 2rem;
   transition: all .5s ease; }
-  .ponteEnContacto:hover, .ponteEnContacto:focus {
+  .ponteEnContacto:hover, .ServicioLista__Btn:hover, .ponteEnContacto:focus, .ServicioLista__Btn:focus {
     background-color: #009500;
     border-color: transparent; }
 
@@ -396,16 +396,22 @@ button.owl-next {
 
 .ServicioLista {
   background-color: #009500; }
+  .ServicioLista__recuadro {
+    display: flex; }
   .ServicioLista__item {
     background-color: #fefefe;
     text-align: center;
     border-radius: .5rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column; }
   .ServicioLista__icono {
     font-size: 4rem;
     margin-bottom: 1rem;
     color: #12AFAF;
     transition: all 1s ease-in; }
+  .ServicioLista__Btn {
+    margin-top: auto; }
 
 .ServicioLista__item:hover .ServicioLista__icono {
   transform: rotateY(360deg);
