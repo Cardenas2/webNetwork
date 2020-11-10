@@ -250,13 +250,13 @@ body {
       flex: 0 1 auto;
       margin-bottom: 1rem;
       display: block;
-      width: 100%; } }
+      width: 100%;
+      text-align: center;
+      align-items: center; } }
   .fuente-3 a {
     color: #fefefe;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none; }
+    justify-content: space-between; }
 
 .fuente-3 a::after {
   content: "\f054";
@@ -393,5 +393,22 @@ button.owl-next {
 
 .parrafo-tab {
   margin: 0; }
+
+.ServicioLista {
+  background-color: #009500; }
+  .ServicioLista__item {
+    background-color: #fefefe;
+    text-align: center;
+    border-radius: .5rem;
+    margin-bottom: 1rem; }
+  .ServicioLista__icono {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #12AFAF;
+    transition: all 1s ease-in; }
+
+.ServicioLista__item:hover .ServicioLista__icono {
+  transform: rotateY(360deg);
+  transform-style: preserve-3d; }
 
 /*# sourceMappingURL=estilos.css.map */

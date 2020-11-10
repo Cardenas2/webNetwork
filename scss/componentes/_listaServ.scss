@@ -1,0 +1,20 @@
+.ServicioLista{
+    background-color: $secundaria;
+    &__item{
+        background-color: $color-claro;
+        text-align: center;
+        border-radius: .5rem;
+        margin-bottom: 1rem;
+    }
+    &__icono{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        color:$principal;
+        transition: all 1s ease-in;
+    }
+}
+
+.ServicioLista__item:hover .ServicioLista__icono{
+    transform:rotateY(360deg);
+    transform-style:preserve-3d;
+}
