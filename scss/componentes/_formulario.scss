@@ -1,0 +1,7 @@
+.submit{
+    @extend .ponteEnContacto;
+}
+.reset{
+    color:$texto;
+    border:1px solid #ccc;
+}

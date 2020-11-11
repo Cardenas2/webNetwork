@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+        <!--cargando iconos-->
+        <script src="https://kit.fontawesome.com/69a9355227.js" crossorigin="anonymous"></script>
+        <!--Carga de archivos bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Contacto - NETWORK| Soluciones Móviles para tu empresa</title>
+    </head>
+    <body>
+        <section class="bienvenidos bienvenidos--mitad"  id="bienvenidos">
+            <header class="bienvenidos__encabezado navbar fixed-top" role="banner">
+                <div class="container container__bienvenida">
+                    <a href="index.html" class="logo"><img src="images/logoNetwork.svg" alt="Logo de sitio"></a>
+                    <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                    </button><!--fin button Buscar-->
+                    <button type="button" class="boton-menu d-md-none" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button><!--fin button menu-->
+                    <form  class="collapse" action="#" id="bloque-buscar">
+                        <div class="contenedor-bloque-buscar">
+                            <input class="contenedor-bloque-buscar__textSearch" type="text" placeholder="Buscar...">
+                            <input class="contenedor-bloque-buscar__buttonSearch" type="submit" value="Buscar">
+                        </div>
+                    </form><!--fin form-->
+                    <nav class="collapse" id="menu-principal">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li class="active"><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav><!--fin nav-->
+                </div><!--fin container-->
+            </header>
+            
+            <div class="bienvenidos__texto-encabezado text-center">
+                <div class="container">
+                    <h1 class="display-4">Contacto</h1>
+                    <p>Estamos listos para ayudarte</p>
+                </div>
+            </div><!--fin texto-encabezado-->
+        </section><!--fin section bienvenidos-->
+        <section class="ruta py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <a  class="ruta__link"href="index.html">Inicio</a> >> Contacto
+                    </div><!--fin col-->
+                </div><!--fin row-->
+            </div><!--fin container-->
+        </section><!--fin section ruta-->
+        <main class="contacto py-5">
+            <div class="container">
+                <div class="row">
+                  <div class="col-12 col-md-8">
+                    <h3 class="mb-3">Formulario de contacto</h3>
+                    <form action="#">
+                      <div class="form-group row">
+                        <label class="col-12 col-md-4" for="nombre">Nombre</label>
+                        <div class="col-12 col-md-8">
+                          <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                        </div>
+
+                      </div><!--fin form-group row-->
+
+                      <div class="form-group row">
+                        <label class="col-12 col-md-4" for="email">Correo electrónico</label>
+                        <div class="col-12 col-md-8">
+                          <input class="form-control" type="text" id="email" name="nombre" placeholder="Ingrese su correo">
+                        </div>
+                      </div><!--fin form-group row-->
+
+
+                      <div class="form-group row">
+                        <label class="col-12 col-md-4" for="mensaje">Mensaje</label>
+                        <div class="col-12 col-md-8">
+                          <textarea class="form-control" name="mensaje" id="mensaje" rows="4" rows="10" placeholder="Deje su mensaje"></textarea>
+                        </div>
+                      </div><!--fin form-group row-->
+
+                      
+                      <div class="form-group row">
+                        <div class="col-md-8 offset-md-4">
+                          <button class="submit btn btn-primary mt-0 mr-1" type="submit">Enviar</button>
+                          <button class="reset btn btn-light" type="reset">Limpiar</button>
+                        </div>
+                      </div>
+
+
+                    </form>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <h3 class="mb-3">Detalles de contacto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugiat facere reiciendis quos assumenda. Suscipit explicabo eligendi cupiditate minus possimus quas fugiat modi soluta quis hic. Odio accusamus nobis libero.</p>
+                  </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer py-4 text-center" role="contentinfo">
+            <div class="container">
+                <p>2016 © NETWORK Todos los derechos reservados</p>
+                <ul class="footer__redesSociales">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div><!--fin container-->
+        </footer>
+        <a href="#bienvenidos"><i class="fas fa-arrow-circle-up icono-flechaIrArriba"></i></a>
+        
+        
+        <!--Carga de archivos js-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -131,13 +131,13 @@ body {
         color: #12AFAF;
         border-bottom: 3px solid #12AFAF; } }
 
-.ponteEnContacto, .ServicioLista__Btn {
+.ponteEnContacto, .ServicioLista__Btn, .submit {
   color: #fff;
   background-color: #12AFAF;
   border-color: transparent;
   margin-top: 2rem;
   transition: all .5s ease; }
-  .ponteEnContacto:hover, .ServicioLista__Btn:hover, .ponteEnContacto:focus, .ServicioLista__Btn:focus {
+  .ponteEnContacto:hover, .ServicioLista__Btn:hover, .submit:hover, .ponteEnContacto:focus, .ServicioLista__Btn:focus, .submit:focus {
     background-color: #009500;
     border-color: transparent; }
 
@@ -416,5 +416,9 @@ button.owl-next {
 .ServicioLista__item:hover .ServicioLista__icono {
   transform: rotateY(360deg);
   transform-style: preserve-3d; }
+
+.reset {
+  color: #111111;
+  border: 1px solid #ccc; }
 
 /*# sourceMappingURL=estilos.css.map */
