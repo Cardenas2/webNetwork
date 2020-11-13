@@ -5,6 +5,11 @@
     background-size: cover;
     width: 100vw;
     color:$color-claro;
+    @media (min-width:992px){
+        background-image: url(../images/fondoNuestrosServicios-lg.jpg);
+        background-position:center;
+        
+    }
     img{
         flex:0 0 70px;
         overflow: hidden;
@@ -67,6 +72,7 @@
         display: none;
         
     }
+
 }
 .fuente-3 a:hover::after{
     left:-.5rem;

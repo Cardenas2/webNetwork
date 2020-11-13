@@ -1,13 +1,16 @@
 .bienvenidos{
     background-image:url("../images/fondoBienvenida.jpg");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
     background-size: cover;
     color:$color-claro;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width:992px){
+        background-image:url("../images/fondoBienvenida-lg.jpg");background-size: cover;
+    }
     &__encabezado{
         background-color: $texto;
         color:$color-claro;
