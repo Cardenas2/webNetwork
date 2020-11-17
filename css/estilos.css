@@ -18,6 +18,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   color: #fefefe;
   height: 100vh;
   display: flex;
@@ -219,6 +220,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   width: 100vw;
   color: #fefefe; }
   @media (min-width: 992px) {
