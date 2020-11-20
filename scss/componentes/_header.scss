@@ -16,6 +16,7 @@
         background-color: $texto;
         color:$color-claro;
         padding: .5rem 0;
+        transition: all .5s ease-in;
         
         .container{
             display: flex;
@@ -34,6 +35,11 @@
         align-items: center;
         flex:1 1 auto;
     }
+}
+
+.fondo-menu{
+    background-color:#086969;
+    padding: 1rem 0;
 }
 .boton-menu{
     border:0;

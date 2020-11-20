@@ -28,8 +28,9 @@
     color:rgba($principal,.5);
     text-decoration: none;
     z-index: 300;
+    display:none;
     line-height: 0;
-    transition: all .2s ease-in-out;
+    transition: all 1s ease-in-out;
     &:hover,:focus{
         outline: none;
         text-decoration: none;

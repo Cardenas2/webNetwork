@@ -31,7 +31,8 @@ body {
   .bienvenidos__encabezado {
     background-color: #111111;
     color: #fefefe;
-    padding: .5rem 0; }
+    padding: .5rem 0;
+    transition: all .5s ease-in; }
     .bienvenidos__encabezado .container {
       display: flex;
       align-items: center;
@@ -44,6 +45,10 @@ body {
     display: flex;
     align-items: center;
     flex: 1 1 auto; }
+
+.fondo-menu {
+  background-color: #086969;
+  padding: 1rem 0; }
 
 .boton-menu, .boton-buscar {
   border: 0;
@@ -361,8 +366,9 @@ button.owl-next {
   color: rgba(18, 175, 175, 0.5);
   text-decoration: none;
   z-index: 300;
+  display: none;
   line-height: 0;
-  transition: all .2s ease-in-out; }
+  transition: all 1s ease-in-out; }
   .icono-flechaIrArriba:hover, .icono-flechaIrArriba :focus {
     outline: none;
     text-decoration: none;
